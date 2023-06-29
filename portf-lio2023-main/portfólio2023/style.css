@@ -1,0 +1,82 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+}
+.Section_top{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background-image: url(images/image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    animation: change 60s infinite ease-in-out;
+}
+.content{
+    position: absolute;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+}
+.content h1{
+    color: #fff;
+    font-size: 100px;
+    letter-spacing: 15px;
+}
+.content h1 span{
+    color: #111;
+    background-color: #fff;
+}
+
+#Portfólio {
+    background-color: #111;
+    border-radius: 10px;
+    padding: 15px;
+    
+}
+.content a{
+    background: #111;
+    color: white;
+    padding: 10px 24px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.content a:hover{
+    background: #fff;
+    color: #111;
+}
+@keyframes change{
+    0%
+    {
+        background-image: url(images/230306_r41942web-site.gif);
+    }
+    20%
+    {
+        background-image: url(images/women-who-stem-related-content.gif);
+    }
+    40%
+    {
+        background-image: url(images/TODDSPOTHPHOTOGRAPHYGIFS-TAPEMACHINE.gif);
+    }
+    60%
+    {
+        background-image: url(images/tumblr_8c9df5ba1a4f823ab221d4c15125d325_187797b1_1280.gif);
+    }
+    80%
+    {
+        background-image: url(images/V8qR.gif);
+    }
+    100%
+    {
+        background-image: url(images/img1.jpg);
+    }
+}
