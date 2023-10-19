@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linguagens</title>
+</head>
+<body>
+  <p>Resenha crítica <a href="https://docs.google.com/document/d/1sQtAT5aL3FIBi0hJX_FhwDP3bJEMdC0JW9u9pxvnx4s/edit"> Felicidade</a></p>
+  <img src="https://media.giphy.com/media/sP39BLHaHyKhI5Qj0A/giphy.gif" alt="">
+  <p>Modernismo:  <a href="https://www.canva.com/design/DAFlFSHzCx4/B4cKP8zCmzuzjhGIb8GyQQ/edit?utm_content=DAFlFSHzCx4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" id="b"> Sala de Aula Invertida</a></p>
+  <img src="https://media.giphy.com/media/RK9E0eC8LvDmI3QddR/giphy.gif" alt="">
+  <p>Revista Literária: <a href="https://www.canva.com/design/DAFqg8SQNOw/9hvlsH12WWkiI0aYeVAQGw/edit?utm_content=DAFqg8SQNOw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" id="b"> Obras da UFSC 2024</a></p>
+
+
+
+
+  <style>
+    a {
+	text-decoration: none;
+	color: #18272F;
+	font-weight: 700;
+  position: relative;
+}
+img {
+    width: 500px;
+}
+a::before {
+  content: '';
+  background-color: hsla(196, 61%, 58%, .75);
+  position: absolute;
+  left: 0;
+  bottom: 3px;
+  width: 100%;
+  height: 8px;
+  z-index: -1;
+  transition: all .3s ease-in-out;
+}
+
+a:hover::before {
+  bottom: 0;
+  height: 100%;
+}
+
+#b {
+	text-decoration: none;
+	color: #18272F;
+	font-weight: 700;
+  position: relative;
+}
+
+#b::before {
+  content: '';
+  background-color: hsla(196, 61%, 58%, .75);
+  position: absolute;
+  left: 0;
+  bottom: 3px;
+  width: 100%;
+  height: 8px;
+  z-index: -1;
+  transition: all .3s ease-in-out;
+}
+
+#b:hover::before {
+  bottom: 0;
+  height: 100%;
+}
+/* Presentational Styles */
+body {
+	display: grid;
+  font-family: 'Poppins', sans-serif;
+  font-size: 27px;
+	line-height: 1.5;
+  height: 100vh;
+	place-items: center;
+}
+
+  </style>
+</body>
+</html>
